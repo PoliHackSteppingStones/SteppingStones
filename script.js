@@ -36,30 +36,30 @@ function loadWorkerResults( data ) {
   map.addMarkers( markers_data );
 }
 
-function loadYOFResults( data ) {
-  var items;
+// function loadYOFResults( data ) {
+//   var items;
 
-  if ( data.length > 0 ) {
-    items = data;
+//   if ( data.length > 0 ) {
+//     items = data;
 
-    for ( var i = 0; i < items.length; i++ ) {
-      var item = items[ i ];
+//     for ( var i = 0; i < items.length; i++ ) {
+//       var item = items[ i ];
 
-      if ( item.Latitude != undefined && item.Longitude != undefined ) {
+//       if ( item.Latitude != undefined && item.Longitude != undefined ) {
 
-        markers_data2.push( {
-          lat: item.Latitude,
-          lng: item.Longitude,
-          infoWindow: {
-            content: '<h3>' + item.Org_Name + '</h3>'
-          }
-        } );
-      }
-    }
-  }
+//         markers_data2.push( {
+//           lat: item.Latitude,
+//           lng: item.Longitude,
+//           infoWindow: {
+//             content: '<h3>' + item.Org_Name + '</h3>'
+//           }
+//         } );
+//       }
+//     }
+//   }
 
-  yof.addMarkers( markers_data2 );
-}
+//   yof.addMarkers( markers_data2 );
+// }
 
 function filterMarkers( category ) {
   _.each( map.markers, function( obj ) {
@@ -82,11 +82,11 @@ $( document ).ready( function() {
     lng: -79.3858808
   } );
 
-  yof = new GMaps( {
-    div: '#yof',
-    lat: 43.6569619,
-    lng: -79.3858808
-  } );
+  // yof = new GMaps( {
+  //   div: '#yof',
+  //   lat: 43.6569619,
+  //   lng: -79.3858808
+  // } );
 
   $( '#map, #yof' ).css( "height", $( window ).height() );
   $( '#map, #yof' ).css( "width", $( window ).width() );
@@ -97,13 +97,13 @@ $( document ).ready( function() {
 
   $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' ).done( loadWorkerResults )
 
-  $( 'a#yof-tab').click, function(e) {
-    e.preventDefault();
+  // $( 'a#yof-tab').click, function(e) {
+  //   e.preventDefault();
 
-    $( '#yof' ).css( "height", $( window ).height() );
-    $( '#yof' ).css( "width", $( window ).width() );
-    $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yof.json' ).done( loadYOFResults )
-  };
+  //   $( '#yof' ).css( "height", $( window ).height() );
+  //   $( '#yof' ).css( "width", $( window ).width() );
+  //   $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yof.json' ).done( loadYOFResults )
+  // };
 } );
 
 // window.onload = function() {
