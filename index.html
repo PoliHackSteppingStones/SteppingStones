@@ -44,13 +44,35 @@
 						</ul>
 						<div class="tab-content">
 							<div class="tab-pane active" id="yow">
-								<p>
+								<p><br>
+									<form role="form">
+										<div class="form-group">
+											<label for="sel1">Find by Service Category:</label>
+											<select class="form-control" id="sel1" onchange="filterMarkers(this.value);">
+											  <option>All</option>
+												<option>General YOW</option>
+												<option>LGBTQ</option>
+												<option>Clinical</option>
+												<option>Aboriginal</option>
+												<option>Enhanced Clinical</option>
+												<option>Chinese</option>
+												<option>Roma</option>
+												<option>Tamil</option>
+												<option>Somali</option>
+												<option>African Canadian</option>
+												<option>Concurrent Disorder</option>
+												<option>Youth Justice</option>
+												<option>Social Media</option>
+											</select>
+											<br>
+										</div>
+									</form>
 									<div id="map"></div>
 								</p>
 							</div>
 							<div class="tab-pane" id="yof">
 								<p>
-									Hello
+									<div id="yof"></div>
 								</p>
 							</div>
 							<div class="tab-pane" id="about">
@@ -67,6 +89,8 @@
 					</div>
 				</div>
 			</div>
+
+
 		</div>
 	</body>
 </html>
