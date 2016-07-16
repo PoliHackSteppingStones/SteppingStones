@@ -1,4 +1,5 @@
 var map;
+var yof;
 var markers_data = [];
 var markers_data2 = [];
 
@@ -120,7 +121,7 @@ $( document ).ready( function() {
   } );
 
   $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' ).done( loadResults )
-  $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yof.json' ).done( loadYOFResults )
+  // $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yof.json' ).done( loadYOFResults )
 
   // yow.done( printResults );
 } );
