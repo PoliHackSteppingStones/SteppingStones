@@ -12,8 +12,11 @@
 	"Longitude": -79.2318602,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "Social Media;Afghan;General YOW;Clinical"
+	"Specific Service": "Social Media;Afghan;General YOW;Clinical",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 2PM–8PM;Thursday 2PM–8PM;Friday 9AM–5PM;Saturday 2PM–8PM; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://emys.on.ca",
+	"Phone Number": " (416) 438-3697"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -28,8 +31,11 @@
 	"Longitude": -79.2809082,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 10AM–4PM;Tuesday 10AM–4PM;Wednesday 10AM–4PM;Thursday 10AM–4PM;Friday 10AM–4PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.agincourtcommunityservices.com",
+	"Phone Number": "(416) 321-6912"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -44,8 +50,11 @@
 	"Longitude": -79.3731829,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 9AM–5PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.aht.ca/about",
+	"Phone Number": "416-360-0486 "
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -60,8 +69,11 @@
 	"Longitude": -79.3698301,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Monday 9AM–8PM;Tuesday 9AM–5PM;Wednesday 9AM–8PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.aht.ca/contact-aht/queen-street-east",
+	"Phone Number": null
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -76,8 +88,11 @@
 	"Longitude": -79.4183242,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 9AM–5PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.aht.ca/contact-aht/vaughan-road",
+	"Phone Number": "416-657-0379"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -92,8 +107,11 @@
 	"Longitude": -79.193363,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.esbgc.org",
+	"Phone Number": "(416) 281-0262"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -108,8 +126,11 @@
 	"Longitude": -79.3997058,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "LGBTQ"
+	"Specific Service": "LGBTQ",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.delisleyouth.org",
+	"Phone Number": "(416) 482-0081 "
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -124,8 +145,11 @@
 	"Longitude": -79.3326853,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Roma"
+	"Specific Service": "Roma",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 9AM–5PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.thorncliffe.org",
+	"Phone Number": "416-467-0126 "
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -140,8 +164,11 @@
 	"Longitude": -79.2887975,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Chinese"
+	"Specific Service": "Chinese",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.hongfook.ca/index.php/contact-us",
+	"Phone Number": "(416) 493-4242"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -156,8 +183,11 @@
 	"Longitude": -79.2053314,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 8AM–5PM;Tuesday 8AM–5PM;Wednesday 8AM–5PM;Thursday 8AM–5PM;Friday 8AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://mfrc.org/contact-us",
+	"Phone Number": "(416) 284-4184"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -172,8 +202,11 @@
 	"Longitude": -79.383616,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 9AM–5PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.nativechild.org",
+	"Phone Number": "416.969.8510"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -188,8 +221,11 @@
 	"Longitude": -79.3486896,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 9AM–5PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.nativechild.org",
+	"Phone Number": "416.969.8510"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -204,8 +240,11 @@
 	"Longitude": -79.439286,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–5PM;Wednesday 9AM–5PM;Thursday 9AM–5PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.nativechild.org",
+	"Phone Number": "416.969.8510"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -220,8 +259,11 @@
 	"Longitude": -79.2961207,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 9AM–4:30PM;Tuesday 9AM–4:30PM;Wednesday 9AM–4:30PM;Thursday 9AM–4:30PM;Friday 9AM–4:30PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.neighbourhoodlink.org",
+	"Phone Number": null
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -236,8 +278,11 @@
 	"Longitude": -79.2487037,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 8:30AM–4:30PM;Tuesday 8:30AM–4:30;Wednesday 8:30AM–4:30;Thursday 8:30AM–4:30;Friday 8:30AM–4:30;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://www.rosaliehall.com",
+	"Phone Number": " (416) 438-6880"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -252,8 +297,11 @@
 	"Longitude": -79.1903301,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Tamil"
+	"Specific Service": "Tamil",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "https://www.schcontario.ca",
+	"Phone Number": "(416) 847-4150"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -268,8 +316,11 @@
 	"Longitude": -79.2206749,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "African Canadian"
+	"Specific Service": "African Canadian",
+	"Hours": "Monday 9AM–5PM;Tuesday 9AM–8PM;Wednesday 9AM–5PM;Thursday 9AM–8PM;Friday 9AM–5PM;Saturday Closed; Sunday Closed",
+	"Gender": "coed",
+	"Website": "http://taibuchc.ca/?lang=en",
+	"Phone Number": "(416) 644-3536"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -284,8 +335,11 @@
 	"Longitude": -79.2832121,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://youthlink.ca",
+	"Phone Number": " (416) 967-1773"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -300,8 +354,11 @@
 	"Longitude": -79.5323302,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 8:30AM-6PM;Tuesday 8:30AM-6PM; Monday 8:30AM-6PM; Monday 8:30AM-6PM; M-Sat, closed Sun",
+	"Gender": "coed",
+	"Website": "http://www.jcaontario.org/",
+	"Phone Number": "(416) 746-5772"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -316,8 +373,11 @@
 	"Longitude": -79.4354143,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://blackactiondefence.weebly.com/",
+	"Phone Number": "(416) 656-2232"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -332,8 +392,11 @@
 	"Longitude": -79.3376044,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "LGBTQ;Concurrent Disorder"
+	"Specific Service": "LGBTQ;conncurrent disorder",
+	"Hours": "M-T 8:30-8, F 8:30-5",
+	"Gender": "coed",
+	"Website": "http://www.griffin-centre.org/",
+	"Phone Number": "(416) 222-1153"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -348,8 +411,11 @@
 	"Longitude": -79.4758375,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "https://www.hincksdellcrest.org/",
+	"Phone Number": "(416) 924-1164"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -364,8 +430,11 @@
 	"Longitude": -79.5201212,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.janefinchcentre.org/content/youth-and-focus",
+	"Phone Number": "(416) 663-2733 ext. 290"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -380,8 +449,11 @@
 	"Longitude": -79.4028054,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Somali"
+	"Specific Service": "Somali",
+	"Hours": "Sat Sun closed, Wed 9:00-8, M/T/T/F 9:00-4:15",
+	"Gender": "coed",
+	"Website": "http://midaynta.com/",
+	"Phone Number": "16 544-1992"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -396,8 +468,11 @@
 	"Longitude": -79.5192497,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Sat Sun closed, 9-4 M-F",
+	"Gender": "coed",
+	"Website": "http://www.peachyouth.org/",
+	"Phone Number": "(416) 740-9593"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -412,8 +487,11 @@
 	"Longitude": -79.4555291,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.yorktownfamilyservices.com/",
+	"Phone Number": "(416) 394-2424"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -428,8 +506,11 @@
 	"Longitude": -79.2873004,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": null,
+	"Website": null,
+	"Phone Number": null
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -444,8 +525,11 @@
 	"Longitude": -79.4729275,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Sat Sun closed, M-F 9-5",
+	"Gender": "coed",
+	"Website": "http://www.foryouth.ca/",
+	"Phone Number": "(416) 653-3311"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -460,8 +544,11 @@
 	"Longitude": -79.5020083,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://unisonhcs.org/community-services/jane-street-hub/",
+	"Phone Number": "(416) 645-7575"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -476,8 +563,11 @@
 	"Longitude": -79.5705334,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "M-F 9-5, Sat 9-2",
+	"Gender": "coed",
+	"Website": "http://www.rexdalechc.com/",
+	"Phone Number": "416-744-0066"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -492,8 +582,11 @@
 	"Longitude": -79.4524255,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Roma"
+	"Specific Service": "Roma",
+	"Hours": "F 10-5",
+	"Gender": "coed",
+	"Website": "http://www.romatoronto.org/",
+	"Phone Number": "(416) 546-2524"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -508,8 +601,11 @@
 	"Longitude": -79.5681066,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Somali"
+	"Specific Service": "Somali",
+	"Hours": null,
+	"Gender": null,
+	"Website": "http://www.soyat.ca/",
+	"Phone Number": 4162476333
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -524,8 +620,11 @@
 	"Longitude": -79.4156825,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Sat Sun 9-5, M-F 8:30-7",
+	"Gender": "coed",
+	"Website": "http://www.stalbansclub.ca/",
+	"Phone Number": "(416) 534-8461"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -540,8 +639,11 @@
 	"Longitude": -79.4922052,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Sat Sun 8:30am-12:30pm M-F: 8am to 5pm, after hours at Weston Rd",
+	"Gender": "coed",
+	"Website": "http://lefca.org/about_us/index.shtml",
+	"Phone Number": "416-769-9912"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -556,8 +658,11 @@
 	"Longitude": -79.4943304,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday to Friday: 12pm to 8pm - (Starting July 1st)",
+	"Gender": "coed",
+	"Website": "http://lefca.org/contact_us/index.shtml",
+	"Phone Number": "416-244-8982"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -572,8 +677,11 @@
 	"Longitude": -79.5033895,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday to Thursday: 12pm (noon) to 5pm",
+	"Gender": "coed",
+	"Website": "http://lefca.org/contact_us/index.shtml",
+	"Phone Number": "416-572-0086"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -588,8 +696,11 @@
 	"Longitude": -79.3578483,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "https://www.torontohousing.ca/residents/community-services/Pages/youth-services.aspx",
+	"Phone Number": "416-981-5500"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -604,8 +715,11 @@
 	"Longitude": -79.5844877,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Somali"
+	"Specific Service": "Somali",
+	"Hours": "Monday 8:30am-4:30pm; Tuesday 8:30am-4:30pm; Wednesday 8:30am-4:30pm; Thursday 8:30am-4:30pm; Friday 8:30am-4:30pm; Saturday 8:30-4:00pm; Sunday 8:30-4:00pm",
+	"Gender": "coed",
+	"Website": "www.rexdaleyouth.org",
+	"Phone Number": "(416) 741-8714"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -620,8 +734,11 @@
 	"Longitude": -78.8457062,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 8:30am-4:30pm; Tuesday 8:30am-4:30pm; Wednesday 8:30am-4:30pm; Thursday 8:30am-4:30pm; Friday 8:30am-4:30pm; Saturday 8:30-4:00pm; Sunday closed",
+	"Gender": "coed",
+	"Website": "www.bgcdurham.com",
+	"Phone Number": "(905) 728-5121"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -636,8 +753,11 @@
 	"Longitude": -78.8697846,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "Monday 8:30am-4:30pm; Tuesday 8:30am-4:30pm; Wednesday 8:30am-4:30pm; Thursday 8:30am-4:30pm; Friday 8:30am-4:30pm; Saturday 8:30-4:00pm; Sunday closed",
+	"Gender": "coed",
+	"Website": "www.bgcdurham.com",
+	"Phone Number": "(905) 436-3311"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -652,8 +772,11 @@
 	"Longitude": -79.0323141,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "general YOW",
+	"Hours": "MWF 8:30am-5pm; TTH 8:30am-8pm",
+	"Gender": "coed",
+	"Website": "http://theyouthcentre.ca/",
+	"Phone Number": "905-428-1212"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -668,8 +791,11 @@
 	"Longitude": -78.865356,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Enhanced Clinical"
+	"Specific Service": "Enhanced Clinical ",
+	"Hours": "Mon-Fri 8:30-4:30pm",
+	"Gender": "coed",
+	"Website": "http://www.dfcc.org/",
+	"Phone Number": "905-436-6754"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -684,12 +810,15 @@
 	"Longitude": -79.8644681,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW;Enhanced Clinical"
+	"Specific Service": "general YOW;Enhanced Clinical",
+	"Hours": "Mon-Fri 8:30am-4:30pm",
+	"Gender": "co-ed",
+	"Website": "http://www.wesleyurbanministries.com/",
+	"Phone Number": "905 528 5629"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
-	"Org_Name": "Good Shepherd Centre",
+	"Org_Name": "Good Shepherd Ministries",
 	"Unit Number": null,
 	"Address_w": "412 Queen St E",
 	"City": "Toronto",
@@ -700,8 +829,11 @@
 	"Longitude": -79.3625224,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Mon-Sun 12:00pm-1:00am",
+	"Gender": "coed",
+	"Website": "www.goodshepherd.ca",
+	"Phone Number": "(416) 869-3619"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -716,8 +848,11 @@
 	"Longitude": -79.8192363,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Aboriginal"
+	"Specific Service": "Aboriginal",
+	"Hours": "Mon-Fri 9am-5pm; Jul-Aug 8:30am-4:30pm",
+	"Gender": "coed",
+	"Website": "www.hric.ca",
+	"Phone Number": "905-548-9593"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -732,8 +867,11 @@
 	"Longitude": -79.8667898,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Mon-Fri 9am-4:30pm; Sat and Sun close",
+	"Gender": "coed",
+	"Website": "www.livingrock.ca",
+	"Phone Number": "905-528-7625"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -748,8 +886,11 @@
 	"Longitude": -81.2296001,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Mon 9am-5pm; TW 9am-9pm TH 10:30am-5pm",
+	"Gender": "coed",
+	"Website": "lihc.on.ca",
+	"Phone Number": "519-659-6399; 519-660-0879"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -764,8 +905,11 @@
 	"Longitude": -75.6465509,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW;Somali"
+	"Specific Service": "General YOW;Somali",
+	"Hours": "Mon-Fri 3pm-9pm",
+	"Gender": "coed",
+	"Website": "www.bgcottawa.org",
+	"Phone Number": "(613) 7468517"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -780,8 +924,11 @@
 	"Longitude": -79.6398559,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Mon-Fri 9:00am-8:00pm",
+	"Gender": "coed",
+	"Website": "ymcagta.org",
+	"Phone Number": "(416) 928-9622; 1-800-223-8024"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -796,8 +943,11 @@
 	"Longitude": -79.7259989,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "African Canadian"
+	"Specific Service": "African Canadian",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "www.aclc.net",
+	"Phone Number": "(416) 214-4747"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -812,8 +962,11 @@
 	"Longitude": -79.6388904,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW;Enhanced Clinical"
+	"Specific Service": "General YOW;Enhanced Clinical",
+	"Hours": "Mon-Thur 9:00am-8:00pm, Fri 9am-4:30pm",
+	"Gender": "coed",
+	"Website": "www.mnsinfo.org",
+	"Phone Number": "(905) 677-6270"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -828,8 +981,11 @@
 	"Longitude": -79.7522771,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Youth Justice"
+	"Specific Service": "Youth Justice",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "www.fernieyouth.ca",
+	"Phone Number": "(416) 284-3711"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -844,8 +1000,11 @@
 	"Longitude": -89.2624327,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW;Aboriginal"
+	"Specific Service": "General YOW;Aboriginal",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "www.dilico.com",
+	"Phone Number": "(807) 623-8511; 1-855-623-8511"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -860,8 +1019,11 @@
 	"Longitude": -89.279138,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW;Aboriginal"
+	"Specific Service": "General YOW;Aboriginal",
+	"Hours": "Mon-Fri 8:30am-4:30pm",
+	"Gender": "coed",
+	"Website": "www.nnec.on.ca",
+	"Phone Number": "(807) 623-8914"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -876,8 +1038,11 @@
 	"Longitude": -89.2408359,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Enhanced Clinical"
+	"Specific Service": "Enhanced Clinical ",
+	"Hours": "Mon, Thur, Fri: 8:30am-4:30pm, Tue, Wed: 8:30am-8:00pm",
+	"Gender": "coed",
+	"Website": "www.tbaycounselling.com",
+	"Phone Number": "(807) 684-1880"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -892,8 +1057,11 @@
 	"Longitude": -83.0272714,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Open 24 hrs",
+	"Gender": "coed",
+	"Website": "http://www.newbeginningswindsor.com/",
+	"Phone Number": "519-971-0973"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -908,8 +1076,11 @@
 	"Longitude": -83.0396772,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Open 24 hrs",
+	"Gender": "coed",
+	"Website": "http://www.newbeginningswindsor.com/",
+	"Phone Number": "519-254-2363"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -924,8 +1095,11 @@
 	"Longitude": -79.4387149,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW;Enhanced Clinical"
+	"Specific Service": "General YOW;Enhanced Clinical",
+	"Hours": "Mon-Fri 9am-10pm; Sat-Sun 9am-8pm",
+	"Gender": "coed",
+	"Website": "360kids.ca",
+	"Phone Number": "905-884-3070"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -940,8 +1114,11 @@
 	"Longitude": -79.365877,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Mon-Sun 24 hrs",
+	"Gender": "coed",
+	"Website": "http://www.suttonyouthshelter.ca/",
+	"Phone Number": "905-722-9076"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -956,8 +1133,11 @@
 	"Longitude": -80.999788,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW;Enhanced Clinical"
+	"Specific Service": "General YOW;Enhanced Clinical",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.canpages.ca/website/business/36320?website=http%3A%2F%2Fwww.sacy.ca",
+	"Phone Number": "705-673-4396"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -972,8 +1152,11 @@
 	"Longitude": -78.3283593,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "Enhanced Clinical"
+	"Specific Service": "Enhanced Clinical",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.peterboroughyouthservices.ca/index.htm",
+	"Phone Number": "705-743-1681"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -988,8 +1171,11 @@
 	"Longitude": -78.3219375,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": "Open 24 hrs",
+	"Gender": "coed",
+	"Website": "http://yesshelter.ca/",
+	"Phone Number": "705-748-3851"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -1004,8 +1190,11 @@
 	"Longitude": -76.5086308,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": "y",
-	"Specific Service": "Enhanced Clinical"
+	"Specific Service": "Enhanced Clinical",
+	"Hours": "Walk in Clinic: Tue 12nn-8pm, with the last appointment at 7pm",
+	"Gender": "coed",
+	"Website": "http://www.pathwayschildrenyouth.org/",
+	"Phone Number": "613-546-8535"
 }, {
 	"FundProgram": "YOW",
 	"FY": "FY201617",
@@ -1020,6 +1209,9 @@
 	"Longitude": -76.4846016,
 	"Targ_Age": "12 to 14 years; 15 to 19 years; 20 to 25 years;",
 	"Service Type": "Service Navigation",
-	"Lead Agency": null,
-	"Specific Service": "General YOW"
+	"Specific Service": "General YOW",
+	"Hours": null,
+	"Gender": "coed",
+	"Website": "http://www.youthdiversion.org/",
+	"Phone Number": "613-548-4535"
 } ]

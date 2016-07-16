@@ -4,13 +4,13 @@ var markers_data = [];
 var markers_data2 = [];
 
 $( window ).resize( function() {
-  $( '#map' ).css( "height", $( window ).height() );
-  $( '#map' ).css( "width", $( window ).width() );
+  $( '#map, #yof' ).css( "height", $( window ).height() );
+  $( '#map, #yof' ).css( "width", $( window ).width() );
   google.maps.event.trigger( map, 'resize' );
   map.setZoom( map.getZoom() );
 } );
 
-function loadResults( data ) {
+function loadWorkerResults( data ) {
   var items;
   if ( data.length > 0 ) {
     items = data;
@@ -26,14 +26,13 @@ function loadResults( data ) {
           title: item.Org_Name,
           service: item[ 'Specific Service' ].split( ";" ),
           infoWindow: {
-            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item[ 'Postal Code' ] + '</li><li>Service Category: ' + item[ 'Specific Service' ].split( ";" ).join( ", " ) + '</li></ul>'
+            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item[ 'Postal Code' ] + '</li><li>Service Category: ' + item[ 'Specific Service' ].split( ";" ).join( ", " ) + '</li><li>Website: <a target="_new" href="' + item['Website'] + '">' + item['Website'] + '</a></li><li>Phone Number: <a href="tel:' + item['Phone Number'] + '">' + item['Phone Number'] + '</a></li><li>Hours: ' + item['Hours'] + '</li><li>Gender: ' + item['Gender'] + '</li></ul>'
           },
 
         } );
       }
     }
   }
-
   map.addMarkers( markers_data );
 }
 
@@ -59,7 +58,7 @@ function loadResults( data ) {
 //     }
 //   }
 
-//   map.addMarkers( markers_data2 );
+//   yof.addMarkers( markers_data2 );
 // }
 
 function filterMarkers( category ) {
@@ -75,25 +74,6 @@ function filterMarkers( category ) {
   }
 }
 
-function printResults( data ) {
-  $( '#foursquare-results' ).text( JSON.stringify( data ) );
-}
-
-$( document ).on( 'click', '.pan-to-marker', function( e ) {
-  e.preventDefault();
-
-  var position, lat, lng, $index;
-
-  $index = $( this ).data( 'marker-index' );
-
-  position = map.markers[ $index ].getPosition();
-
-  lat = position.lat();
-  lng = position.lng();
-
-  map.setCenter( lat, lng );
-} );
-
 $( document ).ready( function() {
 
   map = new GMaps( {
@@ -102,33 +82,29 @@ $( document ).ready( function() {
     lng: -79.3858808
   } );
 
-  yof = new GMaps( {
-    div: '#yof',
-    lat: 43.6569619,
-    lng: -79.3858808
-  } );
+  // yof = new GMaps( {
+  //   div: '#yof',
+  //   lat: 43.6569619,
+  //   lng: -79.3858808
+  // } );
 
-  $( '#map' ).css( "height", $( window ).height() );
-  $( '#map' ).css( "width", $( window ).width() );
+  $( '#map, #yof' ).css( "height", $( window ).height() );
+  $( '#map, #yof' ).css( "width", $( window ).width() );
 
   map.on( 'marker_added', function( marker ) {
-    // var index = map.markers.indexOf( marker );
-    // $( '#results' ).append( '<li><a href="#" class="pan-to-marker" data-marker-index="' + index + '">' + marker.title + '</a></li>' );
-
-    // if ( index == map.markers.length - 1 ) {
     map.fitZoom();
-    // }
   } );
 
-  $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' ).done( loadResults )
-  // $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yof.json' ).done( loadYOFResults )
+  $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' ).done( loadWorkerResults )
 
-  // yow.done( printResults );
+  // $( 'a#yof-tab').click, function(e) {
+  //   e.preventDefault();
+
+  //   $( '#yof' ).css( "height", $( window ).height() );
+  //   $( '#yof' ).css( "width", $( window ).width() );
+  //   $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yof.json' ).done( loadYOFResults )
+  // };
 } );
-
-// var map;
-
-// var data = https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json
 
 // window.onload = function() {
 //   map = new GMaps( {
@@ -159,5 +135,4 @@ $( document ).ready( function() {
 //       alert( "Done!" );
 //     }
 //   } );
-
 // }
