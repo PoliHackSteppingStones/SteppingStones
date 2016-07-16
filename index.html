@@ -1,100 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
-		<title>Document</title>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULSxOWnrdYF4bdm-nETTVLhbrt_28xLM"></script>
-		<script src="https://cdn.jsdelivr.net/gmaps/0.4.24/gmaps.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
-		<script src="script.js"></script>
-	</head>
-	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>
-					Stepping Stones: The Map
-					</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="tabbable" id="tabs-652984">
-						<ul class="nav nav-tabs">
-							<li class="active">
-								<a href="#yow-tab" data-toggle="tab">Workers Map</a>
-							</li>
-							<li>
-								<a href="#yof-tab" data-toggle="tab">Services Map</a>
-							</li>
-							<li>
-								<a href="#about" data-toggle="tab">About</a>
-							</li>
-							<li>
-								<a href="#form" data-toggle="tab">Form</a>
-							</li>
-						</ul>
-						<div class="tab-content">
-							<div class="tab-pane active" id="yow-tab">
-								<p><br>
-									<form role="form">
-										<div class="form-group">
-											<label for="sel1">Find by Service Category:</label>
-											<select class="form-control" id="sel1" onchange="filterMarkers(this.value);">
-											  <option>All</option>
-												<option>General YOW</option>
-												<option>LGBTQ</option>
-												<option>Clinical</option>
-												<option>Aboriginal</option>
-												<option>Enhanced Clinical</option>
-												<option>Chinese</option>
-												<option>Roma</option>
-												<option>Tamil</option>
-												<option>Somali</option>
-												<option>African Canadian</option>
-												<option>Concurrent Disorder</option>
-												<option>Youth Justice</option>
-												<option>Social Media</option>
-											</select>
-											<br>
-										</div>
-									</form>
-									<div id="map"></div>
-								</p>
-							</div>
-							<div class="tab-pane" id="yof-tab">
-								<p>
-									<div id="yof"></div>
-								</p>
-							</div>
-							<div class="tab-pane" id="about">
-								<p>
-                                    Our project is helping Youth Outreach Workers (YOWs) do their very important job more effectively.
-                                    First, we want make it easier for YOWs to navigate information about youth services & supports, so they know where to refer and direct young people.
-                                    There is currently no map, interactive or visual directory of these resources, apart from an 'user-unfriendly' list. So, we built one.
-                                    Second, YOWs have to enter data about youth they interact with, but the current interface is slow, and not user-friendly.
-                                    We prototyped a simplified form for data entry. It is clean, simple to use and mobile/tablet-compatible.
-								</p>
-							</div>
-							<div class="tab-pane" id="form">
-								<p>
-                                    Concept input form can be found <a href="https://briannasmrke.typeform.com/to/UJNtGu" target="_blank">here</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULSxOWnrdYF4bdm-nETTVLhbrt_28xLM"></script>
+    <script src="https://cdn.jsdelivr.net/gmaps/0.4.24/gmaps.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<header><img src="http://youthrex.com/wp-content/uploads/2015/02/large_banner.jpg" alt="" style="width:100%;"></header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>
+                Stepping Stones: The Map
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="tabbable" id="tabs-652984">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#yow-tab" data-toggle="tab">Workers Map</a>
+                    </li>
+                    <!-- 		<li>
+                                <a href="#yof-tab" class="yof-tab" data-toggle="tab">Services Map</a>
+                            </li> -->
+                    <li>
+                        <a href="#about" data-toggle="tab">About</a>
+                    </li>
+                    <li>
+                        <a href="#form" data-toggle="tab">Form</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="yow-tab">
+                        <p><br>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="sel1">Find by Service Category:</label>
+                                <select class="form-control" id="sel1" onchange="filterMarkers(this.value);">
+                                    <option>All</option>
+                                    <option>General YOW</option>
+                                    <option>LGBTQ</option>
+                                    <option>Clinical</option>
+                                    <option>Aboriginal</option>
+                                    <option>Enhanced Clinical</option>
+                                    <option>Chinese</option>
+                                    <option>Roma</option>
+                                    <option>Tamil</option>
+                                    <option>Somali</option>
+                                    <option>African Canadian</option>
+                                    <option>Concurrent Disorder</option>
+                                    <option>Youth Justice</option>
+                                    <option>Social Media</option>
+                                </select>
+                                <br>
+                            </div>
+                        </form>
+                        <div id="map"></div>
+                        </p>
+                    </div>
+                    <!-- 				<div class="tab-pane" id="yof-tab">
+                                        <p>
+                                            <div id="yof"></div>
+                                        </p>
+                                    </div> -->
+                    <div class="tab-pane" id="about">
+                        <br>
+                        <p>
+                            Our project is helping Youth Outreach Workers (YOWs) do their very important job more effectively.<br><b>First</b>, we want make it easier for YOWs to navigate information about youth services & supports, so they know where to refer and direct young people. There is currently no map, interactive or visual directory of these resources, apart from an 'user-unfriendly' list. <b>So, we built one.</b><br><b>Second</b>, YOWs have to enter data about youth they interact with, but the current interface is slow, and not user-friendly.<br>We prototyped a simplified form for data entry. <b>It is clean, simple to use and mobile/tablet-compatible.</b>
 
-
-		</div>
-	</body>
+                            This was made by:
+                        <ul>
+                            <li>Brianna Smrke, Designer</li>
+                            <li>Abby Chua, Researcher</li>
+                            <li>Kim Chua, Researcher</li>
+                            <li>Sonal Ranjit, Developer</li>
+                            <li>Michelle Lee, Developer</li>
+                            <li>Jordan Turner, Developer</li>
+                            <li>Tina Yuan, Ontario Counsel on Youth Opportunities</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="tab-pane" id="form">
+                        <br>
+                        <p>
+                            Concept input form can be found <a href="https://briannasmrke.typeform.com/to/UJNtGu" target="_blank">here</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
