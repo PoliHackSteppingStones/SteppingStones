@@ -26,7 +26,7 @@ function loadWorkerResults( data ) {
           title: item.Org_Name,
           service: item[ 'Specific Service' ].split( ";" ),
           infoWindow: {
-            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item[ 'Postal Code' ] + '</li><li>Service Category: ' + item[ 'Specific Service' ].split( ";" ).join( ", " ) + '</li></ul>'
+            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item[ 'Postal Code' ] + '</li><li>Service Category: ' + item[ 'Specific Service' ].split( ";" ).join( ", " ) + '</li><li>Website: ' + item['Website'] + '</li><li>Phone Number: ' + item['Phone Number'] + '</li><li>Hours: ' + item['Hours'] + '</li><li>Gender: ' + item['Gender'] + '</li></ul>'
           },
 
         } );
