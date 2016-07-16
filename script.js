@@ -22,7 +22,7 @@ function loadResults( data ) {
           lng: item.Longitude,
           title: item.name,
           infoWindow: {
-            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item['Postal Code'] + '</li><li>Lead Agency? ' + item['Lead Agency'] + '</li></ul>'
+            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item[ 'Postal Code' ] + '</li></ul>'
           }
         } );
       }
@@ -32,9 +32,9 @@ function loadResults( data ) {
   map.addMarkers( markers_data );
 }
 
-function printResults( data ) {
-  $( '#foursquare-results' ).text( JSON.stringify( data ) );
-}
+// function printResults( data ) {
+//   $( '#foursquare-results' ).text( JSON.stringify( data ) );
+// }
 
 $( document ).on( 'click', '.pan-to-marker', function( e ) {
   e.preventDefault();
@@ -87,17 +87,17 @@ $( document ).ready( function() {
   // } );
 
   map.on( 'marker_added', function( marker ) {
-    var index = map.markers.indexOf( marker );
-    $( '#results' ).append( '<li><a href="#" class="pan-to-marker" data-marker-index="' + index + '">' + marker.title + '</a></li>' );
+    // var index = map.markers.indexOf( marker );
+    // $( '#results' ).append( '<li><a href="#" class="pan-to-marker" data-marker-index="' + index + '">' + marker.title + '</a></li>' );
 
-    if ( index == map.markers.length - 1 ) {
+    // if ( index == map.markers.length - 1 ) {
       map.fitZoom();
-    }
+    // }
   } );
 
   var xhr = $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' );
 
-  xhr.done( printResults );
+  // xhr.done( printResults );
   xhr.done( loadResults );
 } );
 
