@@ -1,103 +1,138 @@
- var map;
+var map;
 
- function loadResults( data ) {
-   var items, markers_data = [];
-   if ( data.length > 0 ) {
-     items = data;
+$( window ).resize( function() {
+  $( '#map' ).css( "height", $( window ).height() );
+  $( '#map' ).css( "width", $( window ).width() );
+  google.maps.event.trigger( map, 'resize' );
+  map.setZoom( map.getZoom() );
+} );
 
-     for ( var i = 0; i < items.length; i++ ) {
-       var item = items[ i ];
+function loadResults( data ) {
+  var items, markers_data = [];
+  if ( data.length > 0 ) {
+    items = data;
 
-       if ( item.Latitude != undefined && item.Longitude != undefined ) {
+    for ( var i = 0; i < items.length; i++ ) {
+      var item = items[ i ];
 
-         markers_data.push( {
-           lat: item.Latitude,
-           lng: item.Longitude,
-           title: item.name,
-           infoWindow: {
-             content: '<p>' + item.Org_Name + '</p>'
-           }
-         } );
-       }
-     }
-   }
+      if ( item.Latitude != undefined && item.Longitude != undefined ) {
 
-   map.addMarkers( markers_data );
- }
+        markers_data.push( {
+          lat: item.Latitude,
+          lng: item.Longitude,
+          title: item.name,
+          infoWindow: {
+            content: '<h3>' + item.Org_Name + '</h3><ul><li>Address: ' + item.Address_w + '</li><li>Target Age: ' + item.Targ_Age + '</li><li>Postal Code: ' + item['Postal Code'] + '</li><li>Lead Agency? ' + item['Lead Agency'] + '</li></ul>'
+          }
+        } );
+      }
+    }
+  }
 
- function printResults( data ) {
-   $( '#foursquare-results' ).text( JSON.stringify( data ) );
- }
+  map.addMarkers( markers_data );
+}
 
- $( document ).on( 'click', '.pan-to-marker', function( e ) {
-   e.preventDefault();
+function printResults( data ) {
+  $( '#foursquare-results' ).text( JSON.stringify( data ) );
+}
 
-   var position, lat, lng, $index;
+$( document ).on( 'click', '.pan-to-marker', function( e ) {
+  e.preventDefault();
 
-   $index = $( this ).data( 'marker-index' );
+  var position, lat, lng, $index;
 
-   position = map.markers[ $index ].getPosition();
+  $index = $( this ).data( 'marker-index' );
 
-   lat = position.lat();
-   lng = position.lng();
+  position = map.markers[ $index ].getPosition();
 
-   map.setCenter( lat, lng );
- } );
+  lat = position.lat();
+  lng = position.lng();
 
- $( document ).ready( function() {
-   map = new GMaps( {
-     div: '#map',
-     lat: 43.6569619,
-     lng: -79.3858808
-   } );
+  map.setCenter( lat, lng );
+} );
 
-   map.on( 'marker_added', function( marker ) {
-     var index = map.markers.indexOf( marker );
-     $( '#results' ).append( '<li><a href="#" class="pan-to-marker" data-marker-index="' + index + '">' + marker.title + '</a></li>' );
+$( document ).ready( function() {
 
-     if ( index == map.markers.length - 1 ) {
-       map.fitZoom();
-     }
-   } );
+  map = new GMaps( {
+    div: '#map',
+    lat: 43.6569619,
+    lng: -79.3858808
+  } );
 
-   var xhr = $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' );
+  $( '#map' ).css( "height", $( window ).height() );
+  $( '#map' ).css( "width", $( window ).width() );
 
-   xhr.done( printResults );
-   xhr.done( loadResults );
- } );
+  // GMaps.geolocate( {
+  //   success: function( position ) {
+  //     map.setCenter( position.coords.latitude, position.coords.longitude );
+  //     console.log( "position.coords = ", position.coords );
+  //     map.addMarker( {
+  //       lat: position.coords.latitude,
+  //       lng: position.coords.longitude,
+  //       title: 'Your location',
+  //       infoWindow: {
+  //         content: '<p>You are here</p>'
+  //       }
+  //     } );
+  //   },
+  //   error: function( error ) {
+  //     alert( 'Geolocation failed: ' + error.message );
+  //   },
+  //   not_supported: function() {
+  //     alert( "Your browser does not support geolocation" );
+  //   },
+  //   always: function() {
+  //     alert( "Done!" );
+  //   }
+  // } );
 
- // var map;
+  map.on( 'marker_added', function( marker ) {
+    var index = map.markers.indexOf( marker );
+    $( '#results' ).append( '<li><a href="#" class="pan-to-marker" data-marker-index="' + index + '">' + marker.title + '</a></li>' );
 
- // var data = https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json
+    if ( index == map.markers.length - 1 ) {
+      map.fitZoom();
+    }
+  } );
 
- // window.onload = function() {
- //   map = new GMaps( {
- //     div: '#map',
- //     lat: 43.6569619,
- //     lng: -79.3858808
- //   } );
+  var xhr = $.getJSON( 'https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json' );
 
- //   GMaps.geolocate( {
- //     success: function( position ) {
- //       map.setCenter( position.coords.latitude, position.coords.longitude );
- //       console.log("position.coords = ", position.coords);
- //       map.addMarker({
- //         lat: position.coords.latitude, lng: position.coords.longitude,
- //         title: 'Your location',
- //         infoWindow: {
- //           content: '<p>You are here</p>'
- //         }
- //       });
- //     },
- //     error: function( error ) {
- //       alert( 'Geolocation failed: ' + error.message );
- //     },
- //     not_supported: function() {
- //       alert( "Your browser does not support geolocation" );
- //     },
- //     always: function() {
- //       alert( "Done!" );
- //     }
- //   } );
+  xhr.done( printResults );
+  xhr.done( loadResults );
+} );
 
- // }
+// var map;
+
+// var data = https://raw.githubusercontent.com/PoliHackSteppingStones/SteppingStones/master/yow.json
+
+// window.onload = function() {
+//   map = new GMaps( {
+//     div: '#map',
+//     lat: 43.6569619,
+//     lng: -79.3858808
+//   } );
+
+//   GMaps.geolocate( {
+//     success: function( position ) {
+//       map.setCenter( position.coords.latitude, position.coords.longitude );
+//       console.log("position.coords = ", position.coords);
+//       map.addMarker({
+//         lat: position.coords.latitude, lng: position.coords.longitude,
+//         title: 'Your location',
+//         infoWindow: {
+//           content: '<p>You are here</p>'
+//         }
+//       });
+//     },
+//     error: function( error ) {
+//       alert( 'Geolocation failed: ' + error.message );
+//     },
+//     not_supported: function() {
+//       alert( "Your browser does not support geolocation" );
+//     },
+//     always: function() {
+//       alert( "Done!" );
+//     }
+//   } );
+
+// }
